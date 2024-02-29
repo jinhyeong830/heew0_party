@@ -6,6 +6,22 @@
     <title>방명록 확인</title>
   </head>
   <body>
+    <h2>상우 바보</h2>
+    <h3>방명록 남기기</h3>
+    <form name="comment-form" style="display: flex; flex-direction: column; width: 500px">
+      <input type="text" placeholder="이름 등록" id="nickname" />
+      <br />
+      <textarea id="content" cols="30" rows="10" placeholder="방명록을 남겨주세용"></textarea>
+    </form>
+    <p>진짜 등록은 나중에 집가서 심심할 때 만들어볼게,,</p>
+
+    <p>예제</p>
+    <ul>
+      <li>닉네임: allie</li>
+      <li>방명록: 집에 가고 싶다.</li>
+      <li>등록날짜: 2024-02-29</li>
+    </ul>
+
     <%for(let el of data){%>
     <ul>
       <li>닉네임 <%=el.nickName%></li>
