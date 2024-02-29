@@ -4,10 +4,11 @@ const Sequelize = require('sequelize');
 console.log(process.env.NODE_ENV);
 
 // 수정할 수 있는 부분 수정하기
+let config;
 if (process.env.NODE_ENV) {
-  const config = require(__dirname + '/../config/config.js')[process.env.NODE_ENV];
+  config = require(__dirname + '/../config/config.js')[process.env.NODE_ENV];
 } else {
-  const config = require(__dirname + '/../config/config.js')['development'];
+  config = require(__dirname + '/../config/config.js')['development'];
 }
 console.log(config);
 const db = {};
