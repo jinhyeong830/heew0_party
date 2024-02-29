@@ -10,7 +10,7 @@ const prod = {
   username: 'sesac',
   password: '1234',
   database: 'sesac',
-  host: '118.67.132.32 ',
+  host: '118.67.132.32',
   dialect: 'mysql',
 };
 
