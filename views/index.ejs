@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>방명록 확인</title>
+  </head>
+  <body>
+    <%for(let el of data){%>
+    <ul>
+      <li>닉네임 <%=el.nickName%></li>
+      <li>방명록 내용 <%=el.comment_content%></li>
+      <li>등록날짜 <%=el.registered_date%></li>
+    </ul>
+    <% } %>
+  </body>
+</html>
