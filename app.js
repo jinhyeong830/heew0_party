@@ -8,6 +8,7 @@ const { sequelize } = require('./models');
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use('/public', express.static(__dirname + '/static'));
 
 app.get('/', async (req, res) => {
   const allComment = await Comment.findAll();
