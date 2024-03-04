@@ -4,6 +4,7 @@ const development = {
   database: 'sesac',
   host: '127.0.0.1',
   dialect: 'mysql',
+  timezone: 'Asia/Seoul',
 };
 
 const prod = {
@@ -12,6 +13,7 @@ const prod = {
   database: 'sesac',
   host: '118.67.132.32',
   dialect: 'mysql',
+  timezone: 'Asia/Seoul',
 };
 
 module.exports = { development, prod };
