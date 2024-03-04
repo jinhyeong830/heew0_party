@@ -4,7 +4,7 @@ const development = {
   database: 'sesac',
   host: '127.0.0.1',
   dialect: 'mysql',
-  timezone: 'Asia/Seoul',
+  timezone: '+09:00',
 };
 
 const prod = {
@@ -13,7 +13,7 @@ const prod = {
   database: 'sesac',
   host: '118.67.132.32',
   dialect: 'mysql',
-  timezone: 'Asia/Seoul',
+  timezone: '+09:00',
 };
 
 module.exports = { development, prod };
