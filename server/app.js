@@ -17,7 +17,7 @@ sequelize
   .sync({ force: false })
   .then(() => {
     app.listen(PORT, () => {
-      console.log(`http:///localhost:${PORT}`);
+      console.log(`api-server ${PORT} is opened`);
     });
   })
   .catch((err) => {
