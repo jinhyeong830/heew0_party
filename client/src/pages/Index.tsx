@@ -1,7 +1,15 @@
+import DdayFloating from '../components/organism/DdayFloating';
+import GreetingSection from '../components/organism/Section1Greeting';
+import PartyPlaceSection from '../components/organism/Section2Place';
+
 export default function Home() {
   return (
     <main>
-      <section>main v페이지 입니다</section>
+      {/* 인삿말 */}
+      <GreetingSection />
+      <PartyPlaceSection />
+      <section>sdfadad</section>
+      <DdayFloating />
     </main>
   );
 }

@@ -1,0 +1,85 @@
+// font
+@font-face {
+  font-family: 'UhBeeSe_hyun';
+  src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GangwonEduSaeeum_OTFMediumA';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ownglyph_kimkonghae';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/Ownglyph_kimkonghae.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ownglyph_ryurue-Rg';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_ryurue-Rg.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+// common style
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Ownglyph_ryurue-Rg';
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 575px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+// header
+header {
+  // border: 1px solid red;
+  height: 40px;
+  // background-color: rgb(228, 255, 146);
+  line-height: 40px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  // border-bottom: 1.5px dashed rgb(157, 157, 157);
+  background-color: rgba(234, 255, 203, 0.388);
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    li {
+      margin-left: 6px;
+      a {
+        color: black;
+        &:hover {
+          text-decoration: underline;
+          text-decoration-thickness: 1px;
+          text-underline-offset: 2px;
+        }
+      }
+    }
+  }
+}
