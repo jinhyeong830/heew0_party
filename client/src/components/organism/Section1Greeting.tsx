@@ -40,7 +40,10 @@ export default function GreetingSection() {
           <div>{HEEW_BIRTH.split('-').join(' . ')}</div>
           <div>희원이의 생일이에오</div>
           <br />
-          <div>추카추카해요!</div>
+          <div>
+            D-Day 🔥🐰🐻‍❄️🐸 <br />
+            Happy birthday ~✨🌟🥳🎁
+          </div>
           <LionImg src="/image/animal_lion.png" alt="lion_friend" />
         </TextBox>
         {/* 사진을 정렬하는 시간.... */}
