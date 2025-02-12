@@ -1,6 +1,5 @@
-import DdayFloating from '../components/organism/DdayFloating';
-import GreetingSection from '../components/organism/Section1Greeting';
-import PartyPlaceSection from '../components/organism/Section2Place';
+import GreetingSection from '../components/organism/main/Section1Greeting';
+import PartyPlaceSection from '../components/organism/main/Section2Place';
 
 export default function Home() {
   return (
@@ -9,7 +8,6 @@ export default function Home() {
       <GreetingSection />
       <PartyPlaceSection />
       <section>sdfadad</section>
-      <DdayFloating />
     </main>
   );
 }
