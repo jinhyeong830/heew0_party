@@ -17,11 +17,15 @@ npm (run) start 와 npm run dev는 현재로서는 같은 명령어
 - 기본적으로 atomic design pattern 따르고 있음
   - 디자인패턴과 아키텍처 패턴? 차이점 바로 알 수 있도록 정리 필요할 듯
 
-|component
-├ - atomic (제일 작은 부분)
-|  
-├ - molecules
-|
-├ - organism (제일 큰 부분)
-|
-├ -
+```bash
+├── components
+│   ├── atoms
+│   ├── molecules
+│   └── organism
+├── pages
+├── styles
+├── utils
+│   ├── constant.ts
+│   └── utils.ts
+└── hooks
+```
